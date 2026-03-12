@@ -59,19 +59,39 @@
     "correct": "私は20歳です。",
     "explanation": "In Japanese, age is expressed using 'です', not 'あります'."
   },
-{
-  "wrong": "これは美味しいだ。",
-  "correct": "これは美味しい。",
-  "explanation": "い-adjectives do not take だ in plain form."
-},
-{
-  "wrong": "私は兄さんが二人います。",
-  "correct": "私は兄が二人います。",
-  "explanation": "Use 兄 for your own older brother. (Pattern set 3)"
-},
+  {
+    "wrong": "これは美味しいだ。",
+    "correct": "これは美味しい。",
+    "explanation": "い-adjectives do not take だ in plain form."
+  },
+  {
+    "wrong": "私は兄さんが二人います。",
+    "correct": "私は兄が二人います。",
+    "explanation": "Use 兄 for your own older brother. (Pattern set 3)"
+  },
   {
     "wrong": "日本へ旅行を行きたい。",
     "correct": "日本へ旅行に行きたい。",
     "explanation": "Use に行く for purpose. (Pattern set 3)"
+  },
+  {
+    "wrong": "宿題を忘れないよう、メモします。",
+    "correct": "宿題を忘れないように、メモします。",
+    "explanation": "Use ように for purpose/prevention. (Pattern set 1)"
+  },
+  {
+    "wrong": "図書館に本を借りました。",
+    "correct": "図書館で本を借りました。",
+    "explanation": "で marks location of action. (Pattern set 2)"
+  },
+  {
+    "wrong": "この漢字は読み方が難しいです。",
+    "correct": "この漢字の読み方は難しいです。",
+    "explanation": "Prefer noun linkage with の. (Pattern set 5)"
+  },
+  {
+    "wrong": "静かい部屋",
+    "correct": "静かな部屋",
+    "explanation": "な-adjectives require な before nouns. (Pattern set 4)"
   }
 ]
