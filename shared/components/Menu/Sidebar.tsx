@@ -103,6 +103,8 @@ const baseExperimentsSection: NavSection = {
 
 /** Toggle between ActionButton style (true) and simple background style (false) for active nav items */
 const USE_ACTION_BUTTON_STYLE = true;
+/** Toggle between aurora gradient heading (true) and original heading style (false) */
+const USE_AURORA_SIDEBAR_HEADING = true;
 
 // ============================================================================
 // Subcomponents
@@ -581,8 +583,19 @@ const Sidebar = () => {
         transition={{ duration: 0.3, ease: 'easeInOut' }}
       >
         <h1 className='flex items-center gap-1.5 pl-4 text-3xl max-3xl:flex-col max-3xl:items-start'>
-          <AuroraText className='font-bold'>KanaDojo</AuroraText>
-          <AuroraText className='font-normal'>かな道場️</AuroraText>
+          {USE_AURORA_SIDEBAR_HEADING ? (
+            <>
+              <AuroraText className='font-bold'>KanaDojo</AuroraText>
+              <AuroraText className='font-normal'>かな道場️</AuroraText>
+            </>
+          ) : (
+            <>
+              <span className='font-bold'>KanaDojo</span>
+              <span className='font-normal text-(--secondary-color)'>
+                かな道場️
+              </span>
+            </>
+          )}
         </h1>
       </motion.div>
 
